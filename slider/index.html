@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="css/jquery.gScrollingCarousel.css" rel="stylesheet" />
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	<script src="js/jquery.gScrollingCarousel.js"></script> 
+	<script>
+	  $(document).ready(function(){
+	    $(".g-scrolling-carousel .items").gScrollingCarousel();
+	  });
+	</script>
+	<style>
+		
+		.g-scrolling-carousel{
+		  width: 945px;
+		  margin-left: auto;
+          margin-right: auto;
+		}
+        .g-scrolling-carousel .items{
+            padding: 5px 0;
+        }
+		
+        .g-scrolling-carousel .items a{
+            display: inline-block; /* notice the comments between inline-block items */
+            margin-right: 10px;
+            width: 300px;
+            height: 250px;
+            /*box-shadow: 0 0 5px #000;*/
+			border:1px solid #000000;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+	<div class="htmleaf-container">
+		
+		<div class="g-scrolling-carousel">
+		  <div class="items">
+		    <a href="#">Item #1</a>
+			<a href="#">Item #2</a>
+			<a href="#">Item #3</a>
+			<a href="#">Item #4</a>
+			<a href="#">Item #5</a>
+			<a href="#">Item #6</a>
+			<a href="#">Item #7</a>
+			<a href="#">Item #9</a>
+			<a href="#">Item #10</a>
+			<a href="#">Item #11</a>
+		   </div>
+		</div>
+		
+	</div>
+	
+
+</body>
+</html>
